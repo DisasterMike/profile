@@ -1,0 +1,123 @@
+body {
+  /* background-color: #73a4b7; */
+  background: linear-gradient(#000000, #519cff);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+.container > div {
+  background-color: #d6d9d9;
+  padding: 32px;
+  margin: 10px auto;
+  width: 700px;
+  border-radius: 30px;
+  /* border-radius: 10% 10% 10% 10%; */
+  box-shadow: 5px 5px 50px rgb(4, 70, 103);
+}
+
+#top-box {
+  border-radius: 500px 500px 30px 30px;
+}
+#bottom-box {
+  border-radius: 30px 30px 100px 100px;
+}
+
+hr {
+  /* border-style: dotted; */
+  border-style: none;
+  border-top: 10px dotted;
+  width: 100px;
+  color: rgb(32, 149, 18);
+  /* padding: 10px 0; */
+}
+
+h1,
+h2 {
+  color: #7ab2b2;
+  background-color: #194253;
+  display: inline-block;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+span {
+  color: rgb(32, 149, 18);
+}
+
+.main-picture {
+  border-radius: 70% 70% 10% 10%;
+}
+
+.games-video {
+  margin-top: 10px;
+}
+
+.box-shadow {
+  box-shadow: 8px 8px 15px black;
+}
+
+li {
+  list-style: lower-alpha;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  /* background-color: azure; */
+}
+
+.link-text,
+.link-text > h2 {
+  text-decoration: none;
+  color: brown;
+}
+.link-text:hover,
+.link-text > h2:hover {
+  color: rgb(255, 255, 255);
+}
+
+a i:hover {
+  color: rgb(255, 255, 255);
+}
+
+i {
+  color: black;
+  font-size: 50px;
+  padding: 0px 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .container div {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container div {
+    width: 300px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+
+  img {
+    height: 100px;
+  }
+}
